@@ -1,0 +1,156 @@
+@import "./global.css";
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.slider-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-top: 35px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.no-slider {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.slider {
+    animation: slider 10s infinite;
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 500%;
+}
+
+@keyframes slider {
+    0% {
+        left: 168.2%;
+    }
+
+    15% {
+        left: 168.2%;
+    }
+
+    25% {
+        left: 1.55%;
+    }
+
+    45% {
+        left: 1.55%;
+    }
+
+    70% {
+        left: -165.1%;
+    }
+
+    85% {
+        left: -165.1%;
+    }
+
+    100% {
+        left: 168.2%;
+    }
+}
+
+.slide {
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+}
+
+.slide-image {
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    height: 357px;
+    width: 500px;
+}
+
+.character-details {
+    font-weight: 600;
+    padding-bottom: 5%;
+    width: 400px;
+}
+
+table {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+tr>td {
+    padding-bottom: 4px;
+}
+
+.info-title {
+    color: #ffffff;
+    font-family: "Lato Black Italic";
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.info {
+    color: #ffe81f;
+    font-family: "Riffic";
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-inline: 10px;
+    text-align: left;  
+}
+
+.description {
+    max-width: 150px;
+}
+
+.controls {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto 40px;
+    width: 100%;
+}
+
+.controls>a {
+    color: #ffe81f;
+    font-family: "Riffic";
+    font-size: 1rem;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .slide img {
+        height: 143px;
+        width: 200px;
+    }
+
+    .character-details {
+        width: 300px;
+    }
+
+    .description {
+        max-width: 120px;
+    }
+}
