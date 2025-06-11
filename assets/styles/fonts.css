@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Lato Black Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Lato Black Italic"), url("/assets/fonts/Lato-Black-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Riffic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Riffic"), url("/assets/fonts/Riffic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: star jedi;
+    font-style: normal;
+    src: local("Star Jedi"), url("/assets/fonts/Star_Jedi.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: star wars;
+    font-style: normal;
+    src: local("Star Wars"), url("/assets/fonts/Star_Wars.woff2") format("woff2");
+}
